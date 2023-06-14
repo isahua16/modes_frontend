@@ -25,10 +25,18 @@
 </head>
 
 <body>
-  <h1>modes_frontend</h1>
-  <main id="painting_container">
+  <h1 id="title">Painting Collection</h1>
+  <section>
+    <input type="text" id="artist_input" placeholder="Artist Name">
+    <input type="text" id="title_input" placeholder="Title of Work">
+    <input type="text" id="year_input" placeholder="Year of Work">
+    <input type="text" id="image_url_input" placeholder="Image of Work URL">
+    <button id="post_button">Submit</button>
+  </section>
+  <section id="painting_container">
+  </section>
 
-  </main>
+
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
   <script src="/js/app.js"></script>
